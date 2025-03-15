@@ -56,8 +56,6 @@ document.addEventListener("DOMContentLoaded", function () {
       // Update the h1 content
       document.querySelector("main h1").textContent = pageName;
 
-      // Prevent default anchor behavior if needed
-      // e.preventDefault();
     });
   });
 });
