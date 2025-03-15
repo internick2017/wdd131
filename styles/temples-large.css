@@ -1,0 +1,53 @@
+/* Large Screen Styles */
+
+/* Header and Navigation */
+.menu-toggle {
+    display: none;
+}
+
+header {
+    padding: 0;
+}
+
+.header-content {
+    padding: 1rem;
+}
+
+nav {
+    display: block;
+    margin-top: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 1rem;
+}
+
+nav li {
+    margin: 0 0 0 1.5rem;
+}
+
+nav a {
+    padding: 0.5rem;
+}
+
+/* Temple Grid - 3 columns for larger screens */
+.temple-grid {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* Adjust main padding for larger screens */
+main {
+    padding: 2rem;
+}
+
+/* Larger font sizes for headings */
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 2.5rem;
+}
+
+header h2 {
+    font-size: 1.8rem;
+}
