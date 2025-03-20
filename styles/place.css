@@ -1,0 +1,149 @@
+/* Global CSS Variables */
+:root {
+  --primary-color: #ce1141; /* Boston Red Sox/Red color */
+  --secondary-color: #0c2340; /* Boston Navy Blue */
+  --accent-color: #ffb81c; /* Boston Gold accent */
+  --text-color: #333;
+  --background-color: #f5f5f5;
+  --header-font: "Georgia", serif;
+  --body-font: "Arial", sans-serif;
+  --padding-standard: 1rem;
+  --border-radius: 5px;
+}
+
+/* Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--body-font);
+  color: var(--text-color);
+  background-color: var(--background-color);
+  line-height: 1.6;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: var(--padding-standard);
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: var(--header-font);
+}
+
+h1 {
+  margin: 0.5rem 0;
+  font-size: 2rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: var(--secondary-color);
+}
+
+main {
+  padding: 0;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Section Styling */
+section {
+  padding: var(--padding-standard);
+  margin: 1rem 0;
+  background-color: white;
+  border-radius: var(--border-radius);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.data-grid,
+.weather-data {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem 1rem;
+}
+
+.data-grid p:nth-child(odd),
+.weather-data p:nth-child(odd) {
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.weather-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.weather-icon svg {
+  fill: var(--accent-color);
+}
+
+/* Weather icon for larger screens (pseudo-element) */
+.weather-section h2::after {
+  content: "⛅";
+  display: none;
+  margin-left: 0.5rem;
+}
+
+/* Footer Styling */
+footer {
+  background-color: var(--secondary-color);
+  color: white;
+  text-align: center;
+  padding: var(--padding-standard);
+  margin-top: 2rem;
+}
+
+footer p {
+  margin: 0.5rem 0;
+}
+
+/* Mobile-first Media Queries */
+@media screen and (min-width: 768px) {
+  /* Layout changes for larger screens */
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "hero hero"
+      "data weather";
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .hero {
+    grid-area: hero;
+  }
+
+  .data-section {
+    grid-area: data;
+  }
+
+  .weather-section {
+    grid-area: weather;
+  }
+
+  /* Hide mobile SVG icon and show the emoji with pseudo-element */
+  .mobile-icon {
+    display: none;
+  }
+
+  .weather-section h2::after {
+    display: inline;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+}
