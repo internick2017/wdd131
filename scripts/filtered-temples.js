@@ -6,7 +6,7 @@ const temples = [
     dedicated: "April 6, 1893",
     area: 253015,
     imageUrl:
-      "https://cdn.creazilla.com/cliparts/1723223/lds-temple-clipart-md.png",
+      "https://placehold.co/400x600",
   },
   {
     name: "St. George Utah Temple",
@@ -14,7 +14,7 @@ const temples = [
     dedicated: "April 6, 1877",
     area: 110000,
     imageUrl:
-      "https://cdn.creazilla.com/cliparts/1723223/lds-temple-clipart-md.png",
+      "https://placehold.co/400x600",
   },
   {
     name: "Provo City Center Temple",
@@ -22,7 +22,7 @@ const temples = [
     dedicated: "March 20, 2016",
     area: 85084,
     imageUrl:
-      "https://cdn.creazilla.com/cliparts/1723223/lds-temple-clipart-md.png",
+      "https://placehold.co/400x600",
   },
   {
     name: "Rome Italy Temple",
@@ -30,7 +30,7 @@ const temples = [
     dedicated: "March 10, 2019",
     area: 40903,
     imageUrl:
-      "https://cdn.creazilla.com/cliparts/1723223/lds-temple-clipart-md.png",
+      "https://placehold.co/400x600",
   },
   {
     name: "Bern Switzerland Temple",
@@ -38,7 +38,7 @@ const temples = [
     dedicated: "September 11, 1955",
     area: 7808,
     imageUrl:
-      "https://cdn.creazilla.com/cliparts/1723223/lds-temple-clipart-md.png",
+      "https://placehold.co/400x600",
   },
   {
     name: "Curitiba Brazil Temple",
@@ -46,7 +46,7 @@ const temples = [
     dedicated: "June 1, 2008",
     area: 30000,
     imageUrl:
-      "https://cdn.creazilla.com/cliparts/1723223/lds-temple-clipart-md.png",
+      "https://placehold.co/400x600",
   },
   {
     name: "Manti Utah Temple",
@@ -54,7 +54,7 @@ const temples = [
     dedicated: "May 21, 1888",
     area: 100373,
     imageUrl:
-      "https://cdn.creazilla.com/cliparts/1723223/lds-temple-clipart-md.png",
+      "https://placehold.co/400x600",
   },
   {
     name: "Colonia Juárez Chihuahua Mexico Temple",
@@ -62,7 +62,7 @@ const temples = [
     dedicated: "March 6, 1999",
     area: 6800,
     imageUrl:
-      "https://cdn.creazilla.com/cliparts/1723223/lds-temple-clipart-md.png",
+      "https://placehold.co/400x600",
   },
   {
     name: "Laie Hawaii Temple",
@@ -70,7 +70,7 @@ const temples = [
     dedicated: "November 27, 1919",
     area: 42100,
     imageUrl:
-      "https://cdn.creazilla.com/cliparts/1723223/lds-temple-clipart-md.png",
+      "https://placehold.co/400x600",
   },
   // Adding three more temple objects
   {
@@ -79,7 +79,7 @@ const temples = [
     dedicated: "October 30, 1978",
     area: 59246,
     imageUrl:
-      "https://cdn.creazilla.com/cliparts/1723223/lds-temple-clipart-md.png",
+      "https://placehold.co/400x600",
   },
   {
     name: "Tokyo Japan Temple",
@@ -87,7 +87,7 @@ const temples = [
     dedicated: "October 27, 1980",
     area: 52590,
     imageUrl:
-      "https://cdn.creazilla.com/cliparts/1723223/lds-temple-clipart-md.png",
+      "https://placehold.co/400x600",
   },
   {
     name: "Córdoba Argentina Temple",
@@ -95,7 +95,7 @@ const temples = [
     dedicated: "May 17, 2015",
     area: 34369,
     imageUrl:
-      "https://cdn.creazilla.com/cliparts/1723223/lds-temple-clipart-md.png",
+      "https://placehold.co/400x600",
   },
 ];
 
