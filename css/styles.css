@@ -1,0 +1,226 @@
+/* Base Styles */
+:root {
+  --primary-color: #3a6ea5;
+  --secondary-color: #c2e7ff;
+  --accent-color: #ff6b6b;
+  --text-color: #333;
+  --light-color: #f9f9f9;
+  --border-color: #ddd;
+  --success-color: #4caf50;
+  --font-main: "Arial", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  color: var(--text-color);
+  line-height: 1.6;
+  background-color: var(--light-color);
+  padding: 0;
+  margin: 0;
+}
+
+header,
+main,
+footer {
+  padding: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0 0 10px 10px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 10px 10px 0 0;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+}
+
+/* Form Styles */
+form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+select:focus,
+textarea:focus {
+  border-color: var(--primary-color);
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Rating Stars */
+.rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.rating input {
+  display: none;
+}
+
+.star-label {
+  color: #ddd;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: color 0.2s;
+  margin-right: 0.25rem;
+}
+
+.rating input:checked ~ .star-label,
+.rating input:hover ~ .star-label {
+  color: #ffc107;
+}
+
+/* Checkbox styles */
+.checkboxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.75rem;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-item input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+/* Submit button */
+.submit-btn {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #285380;
+}
+
+.submit-group {
+  text-align: center;
+}
+
+/* Confirmation Page Styles */
+.confirmation {
+  text-align: center;
+  padding: 2rem;
+}
+
+.confirmation-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#reviewDetails {
+  margin: 2rem 0;
+  padding: 1rem;
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  text-align: left;
+}
+
+.counter-section {
+  margin: 1.5rem 0;
+  font-weight: bold;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+
+.return-link {
+  margin-top: 1.5rem;
+}
+
+.button {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #285380;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header,
+  main,
+  footer {
+    padding: 1rem;
+  }
+
+  form {
+    padding: 1.5rem;
+  }
+
+  .checkboxes {
+    grid-template-columns: 1fr;
+  }
+
+  .rating {
+    justify-content: flex-start;
+  }
+}
