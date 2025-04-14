@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nick Granados - Web Developer Portfolio showcasing projects, skills, and experience">
+    <title>Nick Granados | Web Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">DevPortfolio</a>
+            </div>
+            <nav>
+                <button class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-image">
+                        <img src="images/profile.jpg" alt="Nick Granados" loading="eager">
+                    </div>
+                    <div class="hero-text">
+                        <h1>Hi, I'm <span class="accent">Nick Granados</span></h1>
+                        <h2>Web Developer & Designer</h2>
+                        <p>I create responsive, accessible, and user-friendly websites using modern web technologies.</p>
+                        <a href="projects.html" class="btn">View My Work</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills">
+            <div class="container">
+                <h2>My Skills</h2>
+                <div class="skills-container" id="skills-container">
+                    <!-- Skills will be added dynamically using JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-projects">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <div class="project-cards">
+                    <div class="project-card">
+                        <img src="images/project1.jpg" alt="E-commerce Website Project" loading="lazy">
+                        <h3>E-commerce Website</h3>
+                        <p>A fully responsive e-commerce platform with shopping cart functionality.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="projects.html#project1" class="btn btn-sm">View Details</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="images/project2.jpg" alt="Restaurant Website Project" loading="lazy">
+                        <h3>Restaurant Website</h3>
+                        <p>A modern website for a local restaurant featuring online reservations.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="projects.html#project2" class="btn btn-sm">View Details</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="images/project3.jpg" alt="Portfolio Template Project" loading="lazy">
+                        <h3>Portfolio Template</h3>
+                        <p>A customizable portfolio template for creative professionals.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="projects.html#project3" class="btn btn-sm">View Details</a>
+                    </div>
+                </div>
+                <div class="center-btn">
+                    <a href="projects.html" class="btn">See All Projects</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container">
+                <h2>What Clients Say</h2>
+                <div class="testimonial-slider" id="testimonial-slider">
+                    <!-- Testimonials will be added dynamically using JavaScript -->
+                </div>
+                <div class="slider-controls">
+                    <button id="prev-testimonial" aria-label="Previous testimonial">&lt;</button>
+                    <button id="next-testimonial" aria-label="Next testimonial">&gt;</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2>Interested in working together?</h2>
+                <p>I'm currently available for freelance work and job opportunities.</p>
+                <a href="contact.html" class="btn btn-accent">Get In Touch</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>DevPortfolio</h3>
+                    <p>Creating web experiences that matter.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="references.html">References</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p>Email: internickbr@gmail.com</p>
+                    <p>Location: Brazil</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="GitHub profile"><img src="images/github.svg" alt="GitHub"></a>
+                        <a href="#" aria-label="LinkedIn profile"><img src="images/linkedin.svg" alt="LinkedIn"></a>
+                        <a href="#" aria-label="Twitter profile"><img src="images/twitter.svg" alt="Twitter"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Nick Granados. All Rights Reserved.</p>
+                <p>Last visited: <span id="last-visit"></span></p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="theme-toggle" class="theme-toggle">
+        <span class="theme-icon light-icon">☀️</span>
+        <span class="theme-icon dark-icon">🌙</span>
+    </div>
+</body>
+</html>

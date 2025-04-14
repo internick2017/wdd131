@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nick Granados - Web development projects and case studies showcasing my skills and experience">
+    <title>Projects | Nick Granados</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
+    <script src="js/projects.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">DevPortfolio</a>
+            </div>
+            <nav>
+                <button class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>My Projects</h1>
+                <p>Here's a collection of my web development projects. Each project demonstrates different skills and technologies.</p>
+            </div>
+        </section>
+
+        <section class="project-filters">
+            <div class="container">
+                <h2>Filter Projects</h2>
+                <div class="filter-buttons" id="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="frontend">Frontend</button>
+                    <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+                    <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects-grid">
+            <div class="container">
+                <div class="projects-container" id="projects-container">
+                    <!-- Projects will be loaded dynamically using JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section id="project1" class="project-detail">
+            <div class="container">
+                <h2>E-commerce Website</h2>
+                <div class="project-overview">
+                    <div class="project-image">
+                        <img src="images/project1-large.jpg" alt="E-commerce Website Project" loading="lazy">
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Overview</h3>
+                        <p>A fully responsive e-commerce platform with shopping cart functionality, product filtering, and secure checkout process.</p>
+
+                        <h3>Technologies Used</h3>
+                        <ul class="tech-list">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>Responsive Design</li>
+                            <li>localStorage for Cart</li>
+                        </ul>
+
+                        <h3>Project Goals</h3>
+                        <p>Create a modern, user-friendly shopping experience that works across all devices with intuitive navigation and fast performance.</p>
+
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm">Live Demo</a>
+                            <a href="#" class="btn btn-sm btn-secondary">GitHub Repo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="project2" class="project-detail">
+            <div class="container">
+                <h2>Restaurant Website</h2>
+                <div class="project-overview">
+                    <div class="project-image">
+                        <img src="images/project2-large.jpg" alt="Restaurant Website Project" loading="lazy">
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Overview</h3>
+                        <p>A modern website for a local restaurant featuring online reservations, menu display, and location information with interactive map.</p>
+
+                        <h3>Technologies Used</h3>
+                        <ul class="tech-list">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>Responsive Design</li>
+                            <li>Form Validation</li>
+                        </ul>
+
+                        <h3>Project Goals</h3>
+                        <p>Design an attractive and functional website that helps the restaurant attract new customers and streamline the reservation process.</p>
+
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm">Live Demo</a>
+                            <a href="#" class="btn btn-sm btn-secondary">GitHub Repo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="project3" class="project-detail">
+            <div class="container">
+                <h2>Portfolio Template</h2>
+                <div class="project-overview">
+                    <div class="project-image">
+                        <img src="images/project3-large.jpg" alt="Portfolio Template Project" loading="lazy">
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Overview</h3>
+                        <p>A customizable portfolio template for creative professionals featuring a modern design, project showcase, and contact form.</p>
+
+                        <h3>Technologies Used</h3>
+                        <ul class="tech-list">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>Responsive Design</li>
+                            <li>Animation Effects</li>
+                        </ul>
+
+                        <h3>Project Goals</h3>
+                        <p>Create a professional template that helps creative professionals showcase their work effectively with minimal customization required.</p>
+
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm">Live Demo</a>
+                            <a href="#" class="btn btn-sm btn-secondary">GitHub Repo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2>Like what you see?</h2>
+                <p>I'm always open to discussing new projects and opportunities.</p>
+                <a href="contact.html" class="btn btn-accent">Contact Me</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>DevPortfolio</h3>
+                    <p>Creating web experiences that matter.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="references.html">References</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p>Email: nick.granados@example.com</p>
+                    <p>Location: United States</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="GitHub profile"><img src="images/github.svg" alt="GitHub"></a>
+                        <a href="#" aria-label="LinkedIn profile"><img src="images/linkedin.svg" alt="LinkedIn"></a>
+                        <a href="#" aria-label="Twitter profile"><img src="images/twitter.svg" alt="Twitter"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Nick Granados. All Rights Reserved.</p>
+                <p>Last visited: <span id="last-visit"></span></p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="theme-toggle" class="theme-toggle">
+        <span class="theme-icon light-icon">☀️</span>
+        <span class="theme-icon dark-icon">🌙</span>
+    </div>
+</body>
+</html>

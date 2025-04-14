@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About Nick Granados - Learn about my background, skills, and experience as a web developer">
+    <title>About | Nick Granados</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">DevPortfolio</a>
+            </div>
+            <nav>
+                <button class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>About Me</h1>
+                <p>Learn about my journey, skills, and approach to web development.</p>
+            </div>
+        </section>
+
+        <section class="about-intro">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="images/about-me.jpg" alt="Nick Granados at work" loading="eager">
+                    </div>
+                    <div class="about-text">
+                        <h2>My Journey</h2>
+                        <p>Hello! I'm Nick Granados, a passionate web developer with a focus on creating clean, functional, and user-friendly websites. My journey into web development began during my college years when I discovered my passion for combining creative design with technical problem-solving.</p>
+                        <p>With a background in computer science and several years of experience in the field, I've developed a deep understanding of web technologies and best practices. I'm constantly learning and expanding my skill set to stay current with the latest trends and technologies in the ever-evolving web development landscape.</p>
+                        <p>When I'm not coding, you can find me hiking in the mountains, reading about new technologies, or experimenting with photography.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="education">
+            <div class="container">
+                <h2>Education & Certifications</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">
+                            <span>2022</span>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Advanced JavaScript Certification</h3>
+                            <p>Frontend Masters</p>
+                            <p>Completed advanced coursework in JavaScript, focusing on modern ES6+ features, asynchronous programming, and performance optimization.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">
+                            <span>2021</span>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Responsive Web Design Certification</h3>
+                            <p>freeCodeCamp</p>
+                            <p>Mastered responsive design principles, CSS Grid, Flexbox, and mobile-first development approaches.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">
+                            <span>2020</span>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Bachelor of Science in Computer Science</h3>
+                            <p>University of Technology</p>
+                            <p>Graduated with honors, specializing in web technologies and software development.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="expertise">
+            <div class="container">
+                <h2>My Expertise</h2>
+                <div class="expertise-grid">
+                    <div class="expertise-card">
+                        <div class="expertise-icon">
+                            <img src="images/icon-frontend.svg" alt="Frontend Development Icon" loading="lazy">
+                        </div>
+                        <h3>Frontend Development</h3>
+                        <p>Creating responsive, accessible, and visually appealing user interfaces using HTML, CSS, and JavaScript.</p>
+                    </div>
+                    <div class="expertise-card">
+                        <div class="expertise-icon">
+                            <img src="images/icon-responsive.svg" alt="Responsive Design Icon" loading="lazy">
+                        </div>
+                        <h3>Responsive Design</h3>
+                        <p>Crafting websites that provide optimal viewing experience across a wide range of devices and screen sizes.</p>
+                    </div>
+                    <div class="expertise-card">
+                        <div class="expertise-icon">
+                            <img src="images/icon-performance.svg" alt="Performance Optimization Icon" loading="lazy">
+                        </div>
+                        <h3>Performance Optimization</h3>
+                        <p>Improving website speed and performance through code optimization, asset management, and best practices.</p>
+                    </div>
+                    <div class="expertise-card">
+                        <div class="expertise-icon">
+                            <img src="images/icon-accessibility.svg" alt="Web Accessibility Icon" loading="lazy">
+                        </div>
+                        <h3>Web Accessibility</h3>
+                        <p>Ensuring websites are accessible to all users, including those with disabilities, through WCAG compliance.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills-detailed">
+            <div class="container">
+                <h2>Technical Skills</h2>
+                <div class="skills-tabs" id="skills-tabs">
+                    <div class="tabs-nav">
+                        <button class="tab-btn active" data-tab="languages">Languages</button>
+                        <button class="tab-btn" data-tab="frameworks">Frameworks</button>
+                        <button class="tab-btn" data-tab="tools">Tools</button>
+                    </div>
+                    <div class="tabs-content">
+                        <div class="tab-panel active" id="languages-panel">
+                            <div class="skills-progress">
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <h4>HTML5</h4>
+                                        <span>95%</span>
+                                    </div>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <h4>CSS3</h4>
+                                        <span>90%</span>
+                                    </div>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <h4>JavaScript</h4>
+                                        <span>85%</span>
+                                    </div>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <h4>Python</h4>
+                                        <span>75%</span>
+                                    </div>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 75%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-panel" id="frameworks-panel">
+                            <div class="skills-progress">
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <h4>React</h4>
+                                        <span>80%</span>
+                                    </div>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <h4>Bootstrap</h4>
+                                        <span>85%</span>
+                                    </div>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <h4>Node.js</h4>
+                                        <span>70%</span>
+                                    </div>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 70%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <h4>Express</h4>
+                                        <span>65%</span>
+                                    </div>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 65%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-panel" id="tools-panel">
+                            <div class="skills-progress">
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <h4>Git/GitHub</h4>
+                                        <span>90%</span>
+                                    </div>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <h4>VS Code</h4>
+                                        <span>95%</span>
+                                    </div>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <h4>Figma</h4>
+                                        <span>80%</span>
+                                    </div>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <h4>Webpack</h4>
+                                        <span>75%</span>
+                                    </div>
+                                    <div class="progress-bar">
+                                        <div class="progress" style="width: 75%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2>Interested in working together?</h2>
+                <p>Whether you need a website built from scratch or have a project that needs refinement, I'd love to help.</p>
+                <a href="contact.html" class="btn btn-accent">Get In Touch</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>DevPortfolio</h3>
+                    <p>Creating web experiences that matter.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="references.html">References</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p>Email: nick.granados@example.com</p>
+                    <p>Location: United States</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="GitHub profile"><img src="images/github.svg" alt="GitHub"></a>
+                        <a href="#" aria-label="LinkedIn profile"><img src="images/linkedin.svg" alt="LinkedIn"></a>
+                        <a href="#" aria-label="Twitter profile"><img src="images/twitter.svg" alt="Twitter"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Nick Granados. All Rights Reserved.</p>
+                <p>Last visited: <span id="last-visit"></span></p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="theme-toggle" class="theme-toggle">
+        <span class="theme-icon light-icon">☀️</span>
+        <span class="theme-icon dark-icon">🌙</span>
+    </div>
+</body>
+</html>

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Nick Granados - Get in touch for web development projects, collaborations, or job opportunities">
+    <title>Contact | Nick Granados</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
+    <script src="js/contact.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">DevPortfolio</a>
+            </div>
+            <nav>
+                <button class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Get In Touch</h1>
+                <p>Have a project in mind or just want to say hello? Fill out the form below and I'll get back to you as soon as possible.</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h2>Contact Information</h2>
+                        <p>Feel free to reach out using the contact form or through any of the methods below:</p>
+
+                        <div class="info-item">
+                            <img src="images/icon-email.svg" alt="Email icon" loading="lazy">
+                            <div>
+                                <h3>Email</h3>
+                                <p>nick.granados@example.com</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <img src="images/icon-location.svg" alt="Location icon" loading="lazy">
+                            <div>
+                                <h3>Location</h3>
+                                <p>United States</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <img src="images/icon-availability.svg" alt="Availability icon" loading="lazy">
+                            <div>
+                                <h3>Availability</h3>
+                                <p>Monday - Friday, 9AM - 5PM EST</p>
+                            </div>
+                        </div>
+
+                        <div class="social-connect">
+                            <h3>Connect With Me</h3>
+                            <div class="social-links">
+                                <a href="#" aria-label="GitHub profile"><img src="images/github.svg" alt="GitHub"></a>
+                                <a href="#" aria-label="LinkedIn profile"><img src="images/linkedin.svg" alt="LinkedIn"></a>
+                                <a href="#" aria-label="Twitter profile"><img src="images/twitter.svg" alt="Twitter"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <h2>Send Me a Message</h2>
+                        <form id="contact-form" class="contact-form" novalidate>
+                            <div class="form-group">
+                                <label for="name">Your Name <span class="required">*</span></label>
+                                <input type="text" id="name" name="name" required aria-required="true">
+                                <div class="error-message" id="name-error"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Your Email <span class="required">*</span></label>
+                                <input type="email" id="email" name="email" required aria-required="true">
+                                <div class="error-message" id="email-error"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject <span class="required">*</span></label>
+                                <input type="text" id="subject" name="subject" required aria-required="true">
+                                <div class="error-message" id="subject-error"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="project-type">Project Type</label>
+                                <select id="project-type" name="project-type">
+                                    <option value="">Please select...</option>
+                                    <option value="website">Website Development</option>
+                                    <option value="ecommerce">E-commerce Site</option>
+                                    <option value="portfolio">Portfolio Site</option>
+                                    <option value="maintenance">Website Maintenance</option>
+                                    <option value="consultation">Consultation</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="budget">Budget Range</label>
+                                <div class="range-container">
+                                    <input type="range" id="budget" name="budget" min="500" max="10000" step="500" value="3000">
+                                    <div class="range-value">$<span id="budget-value">3000</span></div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <fieldset>
+                                    <legend>Preferred Contact Method</legend>
+                                    <div class="radio-group">
+                                        <div class="radio-option">
+                                            <input type="radio" id="contact-email" name="contact-method" value="email" checked>
+                                            <label for="contact-email">Email</label>
+                                        </div>
+                                        <div class="radio-option">
+                                            <input type="radio" id="contact-phone" name="contact-method" value="phone">
+                                            <label for="contact-phone">Phone</label>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Your Message <span class="required">*</span></label>
+                                <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+                                <div class="error-message" id="message-error"></div>
+                            </div>
+
+                            <div class="form-group checkbox-group">
+                                <div class="checkbox-option">
+                                    <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                                    <label for="newsletter">Subscribe to my newsletter for web development tips and updates</label>
+                                </div>
+                            </div>
+
+                            <div class="form-group checkbox-group">
+                                <div class="checkbox-option">
+                                    <input type="checkbox" id="terms" name="terms" value="accepted" required aria-required="true">
+                                    <label for="terms">I agree to the <a href="#" class="terms-link">terms and conditions</a> <span class="required">*</span></label>
+                                    <div class="error-message" id="terms-error"></div>
+                                </div>
+                            </div>
+
+                            <div class="form-actions">
+                                <button type="reset" class="btn btn-secondary">Reset Form</button>
+                                <button type="submit" class="btn btn-accent">Send Message</button>
+                            </div>
+                        </form>
+
+                        <div id="form-success" class="form-success hidden">
+                            <h3>Thank you for your message!</h3>
+                            <p>I appreciate you reaching out. I've received your inquiry and will get back to you as soon as possible.</p>
+                            <button id="send-another" class="btn">Send Another Message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="accordion" id="faq-accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-header" aria-expanded="false">
+                            What is your typical project process?
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>My process typically involves an initial consultation to understand your needs, followed by research and planning, wireframing, design mockups, development, testing, and finally, deployment. I keep clients involved at every step, ensuring the final product meets all requirements.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header" aria-expanded="false">
+                            How long does it take to complete a website?
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Project timelines vary based on complexity and scope. A simple portfolio site might take 2-3 weeks, while a complex e-commerce platform could take 8-12 weeks. I'll provide a detailed timeline during our initial consultation based on your specific requirements.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header" aria-expanded="false">
+                            Do you offer website maintenance services?
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Yes, I offer ongoing maintenance packages to ensure your website remains secure, up-to-date, and performing optimally. This includes regular updates, security checks, performance optimization, and content updates as needed.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-header" aria-expanded="false">
+                            What information do you need to start a project?
+                            <span class="accordion-icon">+</span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>To get started, I'll need information about your business/organization, project goals, target audience, design preferences, content (text and images), and any specific functionality requirements. We'll discuss these details during our initial consultation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>DevPortfolio</h3>
+                    <p>Creating web experiences that matter.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="references.html">References</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p>Email: nick.granados@example.com</p>
+                    <p>Location: United States</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="GitHub profile"><img src="images/github.svg" alt="GitHub"></a>
+                        <a href="#" aria-label="LinkedIn profile"><img src="images/linkedin.svg" alt="LinkedIn"></a>
+                        <a href="#" aria-label="Twitter profile"><img src="images/twitter.svg" alt="Twitter"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Nick Granados. All Rights Reserved.</p>
+                <p>Last visited: <span id="last-visit"></span></p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="theme-toggle" class="theme-toggle">
+        <span class="theme-icon light-icon">☀️</span>
+        <span class="theme-icon dark-icon">🌙</span>
+    </div>
+</body>
+</html>
