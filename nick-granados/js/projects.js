@@ -15,7 +15,7 @@ const projectsData = [
         id: 'project1',
         title: 'E-commerce Website',
         description: 'A fully responsive e-commerce platform with shopping cart functionality, product filtering, and checkout.',
-        image: 'images/project1.jpg',
+        image: 'images/project1.png',
         categories: ['frontend', 'ecommerce'],
         technologies: ['HTML', 'CSS', 'JavaScript']
     },
@@ -23,7 +23,7 @@ const projectsData = [
         id: 'project2',
         title: 'Restaurant Website',
         description: 'A modern website for a local restaurant featuring online reservations and menu display.',
-        image: 'images/project2.jpg',
+        image: 'images/project2.png',
         categories: ['frontend'],
         technologies: ['HTML', 'CSS', 'JavaScript']
     },
@@ -31,7 +31,7 @@ const projectsData = [
         id: 'project3',
         title: 'Portfolio Template',
         description: 'A customizable portfolio template for creative professionals with project showcase.',
-        image: 'images/project3.jpg',
+        image: 'images/project3.png',
         categories: ['frontend'],
         technologies: ['HTML', 'CSS', 'JavaScript']
     },
@@ -39,7 +39,7 @@ const projectsData = [
         id: 'project4',
         title: 'Blog Platform',
         description: 'A full-stack blog platform with user authentication and content management system.',
-        image: 'images/project4.jpg',
+        image: 'images/project4.png',
         categories: ['fullstack'],
         technologies: ['HTML', 'CSS', 'JavaScript', 'Node.js']
     },
@@ -47,7 +47,7 @@ const projectsData = [
         id: 'project5',
         title: 'Task Management App',
         description: 'A drag-and-drop task management application with user accounts and project tracking.',
-        image: 'images/project5.jpg',
+        image: 'images/project5.png',
         categories: ['fullstack'],
         technologies: ['HTML', 'CSS', 'JavaScript', 'React']
     },
@@ -55,7 +55,7 @@ const projectsData = [
         id: 'project6',
         title: 'Clothing Store',
         description: 'An e-commerce platform for a clothing brand with shopping cart and payment integration.',
-        image: 'images/project6.jpg',
+        image: 'images/project6.png',
         categories: ['ecommerce', 'fullstack'],
         technologies: ['HTML', 'CSS', 'JavaScript', 'React']
     }

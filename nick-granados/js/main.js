@@ -137,21 +137,21 @@ if (testimonialSlider) {
         "Nick created an exceptional website for our business that perfectly captured our brand's essence. His attention to detail and technical expertise resulted in a site that not only looks great but performs excellently too.",
       author: "Sarah Johnson",
       position: "Marketing Director, TechCorp",
-      image: "images/testimonial1.jpg",
+      image: "images/testimonial1.png",
     },
     {
       content:
         "Working with Nick was a pleasure from start to finish. He took the time to understand our needs and delivered a website that exceeded our expectations. His responsive design work ensures our site looks fantastic on all devices.",
       author: "Michael Chen",
       position: "Founder, Culinary Creations",
-      image: "images/testimonial2.jpg",
+      image: "images/testimonial2.png",
     },
     {
       content:
         "Nick's expertise in web development saved our e-commerce project. He optimized our site for speed and conversions, resulting in a 40% increase in sales within the first month after launch.",
       author: "Emma Rodriguez",
       position: "CEO, StyleShop",
-      image: "images/testimonial3.jpg",
+      image: "images/testimonial3.png",
     },
   ];
 

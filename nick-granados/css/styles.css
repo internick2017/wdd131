@@ -1159,7 +1159,6 @@ footer {
   width: 24px;
   height: 24px;
   margin-right: var(--spacing-md);
-  filter: brightness(0) invert(1);
 }
 
 .info-item h3 {
