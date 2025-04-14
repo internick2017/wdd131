@@ -87,7 +87,7 @@ devportfolio/
 
 1. Clone the repository:
 ```
-git clone https://github.com/username/devportfolio.git
+git clone https://github.com/internick2017/devportfolio.git
 ```
 
 2. Navigate to the project directory:
